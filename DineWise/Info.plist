@@ -21,5 +21,15 @@
 			</array>
 		</dict>
 	</dict>
+	<key>Privacy - Camera Usage Description
+Privacy - Camera Usage Description
+Privacy</key>
+	<string></string>
+	<key>Privacy - Photo Library Usage Description
+Privacy - Photo Library Usage Description
+</key>
+	<string></string>
+	<key>NSMicrophoneUsageDescription</key>
+	<string></string>
 </dict>
 </plist>

@@ -15,12 +15,14 @@
 		B421D9EE2D89E799003DA129 /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = B421D9ED2D89E799003DA129 /* FirebaseAuth */; };
 		B421D9F02D89E799003DA129 /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = B421D9EF2D89E799003DA129 /* FirebaseFirestore */; };
 		B421D9F22D89E799003DA129 /* FirebaseStorage in Frameworks */ = {isa = PBXBuildFile; productRef = B421D9F12D89E799003DA129 /* FirebaseStorage */; };
+		B4673AFE2D9B81B20015F517 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = B4673AFD2D9B81B20015F517 /* GoogleService-Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		4BF8901E2D91BD1B004B55D4 /* AVKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVKit.framework; path = System/Library/Frameworks/AVKit.framework; sourceTree = SDKROOT; };
 		4BF890202D91BD22004B55D4 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
 		B421D9C02D89E080003DA129 /* DineWise.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DineWise.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B4673AFD2D9B81B20015F517 /* GoogleService-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
@@ -78,6 +80,7 @@
 				B421D9C22D89E080003DA129 /* DineWise */,
 				4BF8901D2D91BD1B004B55D4 /* Frameworks */,
 				B421D9C12D89E080003DA129 /* Products */,
+				B4673AFD2D9B81B20015F517 /* GoogleService-Info.plist */,
 			);
 			sourceTree = "<group>";
 		};
@@ -163,6 +166,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B4673AFE2D9B81B20015F517 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
