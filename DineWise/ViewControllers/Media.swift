@@ -7,25 +7,18 @@
 
 import Foundation
 
-enum MediaType: String, Codable {
+enum MediaType {
     case image
     case video
 }
 
-struct Media: Codable {
-    let id: String
-    let url: String
+class Media {
     let type: MediaType
+    let fileName: String
 
-    init?(documentID: String, data: [String: Any]) {
-        guard let url = data["url"] as? String,
-              let typeString = data["type"] as? String,
-              let type = MediaType(rawValue: typeString) else {
-            return nil
-        }
-        self.id = documentID
-        self.url = url
+    init(type: MediaType, fileName: String) {
         self.type = type
+        self.fileName = fileName
     }
 }
 
