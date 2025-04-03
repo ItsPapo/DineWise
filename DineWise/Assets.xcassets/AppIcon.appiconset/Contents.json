@@ -1,14 +1,39 @@
 {
   "images" : [
     {
+<<<<<<< HEAD
       "filename" : "resized_image_1024x1024.png",
+=======
+>>>>>>> ea410a9055f0d15ee98262ef7678b993d8207fee
       "idiom" : "universal",
       "platform" : "ios",
       "size" : "1024x1024"
     },
     {
+<<<<<<< HEAD
       "idiom" : "universal",
       "platform" : "watchos",
+=======
+      "appearances" : [
+        {
+          "appearance" : "luminosity",
+          "value" : "dark"
+        }
+      ],
+      "idiom" : "universal",
+      "platform" : "ios",
+      "size" : "1024x1024"
+    },
+    {
+      "appearances" : [
+        {
+          "appearance" : "luminosity",
+          "value" : "tinted"
+        }
+      ],
+      "idiom" : "universal",
+      "platform" : "ios",
+>>>>>>> ea410a9055f0d15ee98262ef7678b993d8207fee
       "size" : "1024x1024"
     }
   ],

@@ -21,6 +21,7 @@
 			</array>
 		</dict>
 	</dict>
+<<<<<<< HEAD
 	<key>Privacy - Camera Usage Description
 Privacy - Camera Usage Description
 Privacy</key>
@@ -31,5 +32,7 @@ Privacy - Photo Library Usage Description
 	<string></string>
 	<key>NSMicrophoneUsageDescription</key>
 	<string></string>
+=======
+>>>>>>> ea410a9055f0d15ee98262ef7678b993d8207fee
 </dict>
 </plist>
